@@ -34,8 +34,6 @@ public class FireFoxTest {
         browser.get("https://www.google.com");
         WebElement q = browser.findElement(By.name("q"));
         assertTrue((q.isDisplayed()));
-
-
     }
 
 }
