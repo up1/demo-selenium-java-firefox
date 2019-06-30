@@ -18,7 +18,7 @@ public class FireFoxTest {
         // version 0.24.0
         // Firefox browser version 67.0.4
         // https://github.com/mozilla/geckodriver/issues/1483
-        System.setProperty("webdriver.gecko.driver", "/Users/somkiat/data/slide/java/selenium/geckodriver");
+        System.setProperty("webdriver.gecko.driver", "<your path>/geckodriver");
         browser = new FirefoxDriver();
     }
 
